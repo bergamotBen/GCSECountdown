@@ -74,3 +74,9 @@ hr {
   margin-top: 8px;
   border-radius: 3pt;
 }
+
+.date {
+  text-align: right;
+  padding-right: 2rem;
+  line-height: 24pt;
+}

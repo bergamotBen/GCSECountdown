@@ -27,3 +27,5 @@ countdownText.innerText = countdown(1718006400000);
 setInterval(() => {
   countdownText.innerText = countdown(1718006400000);
 }, 60000);
+const date = document.querySelector(".date");
+date.innerText = "Monday, June 2nd, 9am";
