@@ -9,8 +9,7 @@ const countdown = (stamp) => {
   for (let i = 0; i < 4; i++) {
     if (Math.floor(remainder / msArray[i]) === 0) {
       finalArr.push("");
-    }
-    if (Math.floor(remainder / msArray[i]) === 1) {
+    } else if (Math.floor(remainder / msArray[i]) === 1) {
       finalArr.push(
         ` ${Math.floor(remainder / msArray[i])} ${intervals[i].slice(0, -1)}`
       );
