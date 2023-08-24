@@ -1,0 +1,22 @@
+{
+  "name": "gcsecountdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bergamotBen/GCSECountdown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bergamotBen/GCSECountdown/issues"
+  },
+  "homepage": "https://github.com/bergamotBen/GCSECountdown#readme",
+  "dependencies": {
+    "jest": "^29.6.3"
+  }
+}
