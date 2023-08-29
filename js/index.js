@@ -11,7 +11,7 @@ const countdown = (stamp) => {
       finalArr.push("");
     } else if (Math.floor(remainder / msArray[i]) === 1) {
       finalArr.push(
-        ` ${Math.floor(remainder / msArray[i])} ${intervals[i].slice(0, -1)}`
+        ` ${Math.floor(remainder / msArray[i])} ${intervals[i].slice(0, -1)},`
       );
     } else {
       finalArr.push(` ${Math.floor(remainder / msArray[i])} ${intervals[i]},`);
