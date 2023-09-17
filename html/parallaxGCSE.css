@@ -1,6 +1,12 @@
 /* Parallax base styles
   --------------------------------------------- */
+.bigger {
+  font-size: 18pt;
+}
 
+.smaller {
+  font-size: 13pt;
+}
 .parallax {
   height: 100vh;
   overflow-x: hidden;
@@ -14,20 +20,9 @@
   height: 100vh;
   transform-style: preserve-3d;
 }
-#group1 {
-  scroll-snap-stop: always;
-  scroll-snap-type: y proximity;
-  position: sticky;
-}
-#group2 {
-  position: sticky;
-
-  scroll-snap-stop: always;
-  scroll-snap-type: y proximity;
-}
 .parallax__layer {
   position: absolute;
-  margin-top: 0;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
@@ -57,20 +52,22 @@
 .black_line {
   background-color: black;
   height: 10px;
-  width: 63vw;
   margin: auto;
 }
 .first {
   position: absolute;
   top: -3300px;
+  width: 750px;
 }
 .second {
   position: absolute;
   top: -3610px;
+  width: 750px;
 }
 .third {
   position: absolute;
   top: -4315px;
+  width: 750px;
 }
 body,
 html {
@@ -79,6 +76,7 @@ html {
 
 body {
   font: 100% Staatliches;
+  background-color: rgb(199, 123, 219);
 }
 
 * {
@@ -90,142 +88,140 @@ body {
   font-size: 200%;
 }
 
-/* style the groups
-    --------------------------------------------- */
-
-#group1 {
-  z-index: 5; /* slide over group 2 */
-}
-
-.group1_green {
-  position: absolute;
-  /* top: 40%; */
-  /* right: 10%; */
-  background-color: green;
-}
-#group2 {
-  z-index: 3; /* slide under groups 1 and 3 */
-}
-
-.group2_orange {
-  position: absolute;
-  /* left: 5%; */
-  background-color: orange;
-}
-.group2_yellow {
-  position: absolute;
-  /* top: 56%; */
-  background-color: yellow;
-  /* right: 26%; */
-}
-
-#group3 {
-  z-index: 4; /* slide over group 2 and 4 */
-}
-.group3_blueSmall {
-  position: absolute;
-  /* top: 45%; */
-  /* left: 65%; */
-}
-
-.group3_red {
-  position: absolute;
-  /* top: 80%; */
-  /* left: 42%; */
-}
-
-#group4 {
-  z-index: 2; /* slide under group 3 and 5 */
-}
-
-.group4_orange {
-  position: absolute;
-  /* top: 80%; */
-  /* left: 48%; */
-}
-
-.group4_green {
-  position: absolute;
-  /* top: 55%; */
-  /* left: 20%; */
-}
-
-.credits {
-  position: absolute;
-  z-index: 100;
-  bottom: 0vh;
-  top: auto;
-  font-size: 80%;
-  text-align: center;
-  width: 100%;
-  background: white;
-}
-
 .exam_series {
-  height: fit-content;
+  height: min-content;
   position: absolute;
   margin: auto;
-  width: 63vw;
+  width: 750px;
   top: -4000px;
+  bottom: 0vh;
   font-size: 88pt;
   letter-spacing: 2pt;
 }
 
 .subject {
-  height: fit-content;
+  height: min-content;
+  width: 750px;
   top: -4100px;
   float: left;
   position: absolute;
   margin: auto;
-  width: 63vw;
   font-size: 40pt;
 }
 
 .paper {
   position: absolute;
-  height: fit-content;
+  height: min-content;
+  width: 750px;
   top: -3280px;
   text-align: right;
   margin: auto;
-  width: 63vw;
   font-size: 40pt;
 }
 
 .paper_title {
   position: absolute;
-  height: fit-content;
+  height: min-content;
+  width: 750px;
   font-size: 30pt;
-  word-spacing: 1pt;
+  word-spacing: 2.5pt;
   top: -5000px;
+  bottom: 0vh;
   margin: auto;
-  width: 63vw;
-  text-align: justify;
-}
-.paper_title2 {
-  position: absolute;
-  height: fit-content;
-  font-size: 22.5pt;
-  word-spacing: 2pt;
-  top: -5000px;
-  margin: auto;
-  width: 63vw;
   text-align: justify;
 }
 
 .countdown {
   position: absolute;
-  height: fit-content;
+  height: min-content;
+  width: 750px;
   top: -4000px;
+  bottom: 0vh;
   text-align: right;
   margin: auto;
-  width: 63vw;
 }
 
 .date {
   position: absolute;
-  height: fit-content;
+  height: min-content;
+  width: 750px;
   top: -4350px;
+  bottom: 0vh;
   text-align: right;
   margin: auto;
-  width: 63vw;
+}
+
+.first2 {
+  position: absolute;
+  bottom: -1250px;
+  width: 750px;
+}
+.second2 {
+  position: absolute;
+  bottom: -920px;
+  width: 750px;
+}
+.third2 {
+  position: absolute;
+  bottom: -240px;
+  width: 750px;
+}
+.exam_series2 {
+  height: min-content;
+  position: absolute;
+  margin: auto;
+  width: 750px;
+  font-size: 88pt;
+  letter-spacing: 2pt;
+  bottom: -550px;
+}
+
+.subject2 {
+  height: min-content;
+  float: left;
+  position: absolute;
+  margin: auto;
+  width: 750px;
+  font-size: 40pt;
+  bottom: -440px;
+}
+
+.paper2 {
+  position: absolute;
+  height: min-content;
+  text-align: right;
+  margin: auto;
+  width: 750px;
+  font-size: 40pt;
+  bottom: -1268px;
+}
+
+.paper_title2 {
+  position: absolute;
+  height: min-content;
+  bottom: 500px;
+  font-size: 26pt;
+  letter-spacing: -1pt;
+  word-spacing: 2pt;
+  margin: auto;
+  width: 750px;
+  text-align: justify;
+}
+
+.countdown2 {
+  position: absolute;
+  height: min-content;
+  bottom: -590px;
+  text-align: right;
+  margin: auto;
+  width: 750px;
+}
+
+.date2 {
+  position: absolute;
+  height: min-content;
+  text-align: right;
+  margin: auto;
+  width: 750px;
+  bottom: -200px;
 }
