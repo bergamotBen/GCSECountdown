@@ -43,7 +43,12 @@
 }
 
 /* body styles */
-
+.black_line {
+  background-color: black;
+  height: 50px;
+  width: 70%;
+  border: 10px black;
+}
 body,
 html {
   overflow: hidden;
