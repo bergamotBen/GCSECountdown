@@ -29,6 +29,10 @@
 }
 
 .parallax__layer--fore {
+  transform: translateZ(-150px) scale(1.5);
+  z-index: 1;
+}
+.parallax__layer--fore2 {
   transform: translateZ(90px) scale(0.7);
   z-index: 1;
 }
@@ -61,7 +65,7 @@
 }
 .second {
   position: absolute;
-  top: -3610px;
+  top: -3465px;
   width: 750px;
 }
 .third {
@@ -76,7 +80,7 @@ html {
 
 body {
   font: 100% Staatliches;
-  background-color: rgb(199, 123, 219);
+  background-color: #c77bdb;
 }
 
 * {
@@ -158,7 +162,7 @@ body {
 }
 .second2 {
   position: absolute;
-  bottom: -920px;
+  bottom: -1070px;
   width: 750px;
 }
 .third2 {
