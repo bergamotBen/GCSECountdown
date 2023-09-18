@@ -81,6 +81,8 @@ html {
 body {
   font: 100% Staatliches;
   background-color: #c77bdb;
+  transition: all 0.5s ease;
+  min-height: 100%;
 }
 
 * {

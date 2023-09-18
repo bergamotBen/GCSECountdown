@@ -11,9 +11,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="parallaxGCSE.css" />
 
-    <title>Document</title>
+    <title>Countdown to GCSEs</title>
   </head>
-  <body>
+  <body id="page">
     <div class="parallax">
       <div id="group1" class="parallax__group"></div>
       <div id="group1" class="parallax__group">
@@ -39,9 +39,10 @@
           20<sup class="bigger">th</sup> century literature & creative prose
           writing
         </div>
-        <div class="parallax__layer parallax__layer--deep countdown">
-          countdown
-        </div>
+        <div
+          class="parallax__layer parallax__layer--deep countdown"
+          id="stamp1"
+        ></div>
         <div id="group1" class="parallax__group">
           <div
             class="parallax__layer parallax__layer--base black_line third"
@@ -76,18 +77,20 @@
           19<sup class="smaller">th</sup> and 21<sup class="smaller">st</sup>
           Century non-fiction reading and persuasive writing
         </div>
-        <div class="parallax__layer parallax__layer--deep countdown2">
-          countdown
-        </div>
+        <div
+          class="parallax__layer parallax__layer--deep countdown2"
+          id="stamp2"
+        ></div>
         <div id="group2" class="parallax__group">
           <div
             class="parallax__layer parallax__layer--base black_line third2"
           ></div>
         </div>
-        <div class="parallax__layer parallax__layer--fore2 date2">
+        <div class="parallax__layer parallax__layer--fore2 date2" id="date2">
           Thursday, June 6th, 9am
         </div>
       </div>
     </div>
   </body>
 </html>
+<script src="/GCSECountdown/js/parallaxGCSE.js"></script>
