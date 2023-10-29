@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 16px;
+  margin: auto;
+}
+
+.paper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: right;
+  align-items: center;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+.deep {
+  transform: translateZ(-32px) scale(3);
+}
+.back {
+  transform: translateZ(-16px) scale(2);
+}
+.fore {
+  transform: translateZ(-8) scale(1.5);
+}
+
+.countdown {
+  font-family: staatliches;
+}
+.line {
+  background-color: black;
+}
+.section1 {
+  font-size: 2rem;
+  padding: 2rem;
+  height: 300vh;
+}
+.section2 {
+  font-size: 2rem;
+  padding: 2rem;
+  height: 60vh;
+}
+@media only screen and (min-width: 500px) {
+  img {
+    width: 60vw;
+  }
+  .wrapper {
+    width: 60vw;
+  }
+  .countdown {
+    font-size: 30pt;
+    letter-spacing: -1.6pt;
+    word-spacing: -0.5pt;
+    margin-bottom: -1vh;
+  }
+  .line {
+    height: 1.5vh;
+    width: 60vw;
+  }
+  .first1 {
+    position: absolute;
+    top: -700px;
+  }
+  .series1 {
+    position: absolute;
+    top: -270px;
+    min-height: fit-content;
+  }
+  .paper1 {
+    position: absolute;
+    top: 135px;
+  }
+  .second1 {
+    position: absolute;
+    top: -135px;
+  }
+  .title1 {
+    position: absolute;
+    top: 75px;
+  }
+
+  #stamp1 {
+    position: absolute;
+    top: 465px;
+  }
+  .third1 {
+    position: absolute;
+    top: 640px;
+  }
+  .date1 {
+    position: absolute;
+    top: 910px;
+  }
+
+  .first2 {
+    position: absolute;
+    top: 2218px;
+  }
+  .series2 {
+    position: absolute;
+    top: 1615px;
+  }
+  .paper2 {
+    position: absolute;
+    top: 2120px;
+  }
+  .second2 {
+    position: absolute;
+    top: 2408px;
+  }
+  .title2 {
+    position: absolute;
+    top: 2105px;
+  }
+  #stamp2 {
+    position: absolute;
+    top: 2666px;
+  }
+  .third2 {
+    position: absolute;
+    top: 2950px;
+  }
+  .date2 {
+    position: absolute;
+    top: 2720px;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  img {
+    width: 80vw;
+  }
+  .wrapper {
+    width: 80vw;
+  }
+  .countdown {
+    font-size: 16pt;
+    letter-spacing: -0.6pt;
+    word-spacing: -0.5pt;
+  }
+  .line {
+    height: 1vh;
+    width: 90vw;
+  }
+  .first1 {
+    position: absolute;
+    top: -500px;
+  }
+  .series1 {
+    position: absolute;
+    top: -180px;
+  }
+  .paper1 {
+    position: absolute;
+    top: 125px;
+  }
+  .second1 {
+    position: absolute;
+    top: -280px;
+  }
+  .title1 {
+    position: absolute;
+    top: -37px;
+  }
+
+  #stamp1 {
+    position: absolute;
+    top: 450px;
+  }
+  .third1 {
+    position: absolute;
+    top: 580px;
+  }
+  .date1 {
+    position: absolute;
+    top: 740px;
+  }
+
+  .first2 {
+    position: absolute;
+    top: 2300px;
+  }
+  .series2 {
+    position: absolute;
+    top: 1780px;
+  }
+  .paper2 {
+    position: absolute;
+    top: 2120px;
+  }
+  .second2 {
+    position: absolute;
+    top: 2378px;
+  }
+  .title2 {
+    position: absolute;
+    top: 1990px;
+  }
+  #stamp2 {
+    position: absolute;
+    top: 2686px;
+  }
+  .third2 {
+    position: absolute;
+    top: 2950px;
+  }
+  .date2 {
+    position: absolute;
+    top: 2720px;
+  }
+}
