@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #c77bdb;
+  min-height: 100%;
+}
+.break {
+  height: 101vh;
+}
+.paper1 {
+  height: 100vh;
+}
+.paper2 {
+  height: 99vh;
+}
+.right {
+  float: right;
+}
+.line {
+  background-color: black;
+  height: 1.5vh;
+  margin: auto;
+}
+.first {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.second {
+  margin-top: 5px;
+  margin-bottom: -8px;
+}
+.third {
+  margin-top: -9px;
+  margin-bottom: -9px;
+}
+img {
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+.space {
+  height: 25vh;
+}
+
+.countdown {
+  font-family: staatliches;
+  letter-spacing: -1.6pt;
+  word-spacing: -0.5pt;
+  text-align: right;
+  margin-bottom: -1vh;
+}
+.smallerGap {
+  margin-top: 3px;
+}
+.biggerGap {
+  margin-top: 12px;
+}
+@media only screen and (min-width: 700px) {
+  .right {
+    width: 27vw;
+  }
+  .line {
+    width: 55vw;
+  }
+  img {
+    width: 55vw;
+  }
+  .space {
+    height: 25vh;
+  }
+  .countdown {
+    font-size: 4vw;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .right {
+    width: 35vw;
+  }
+  .line {
+    width: 85vw;
+  }
+  img {
+    width: 85vw;
+  }
+  .space {
+    height: 25vh;
+  }
+  .countdown {
+    font-size: 6vw;
+  }
+}
