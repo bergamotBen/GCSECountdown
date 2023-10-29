@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #c77bdb;
 }
 
 .wrapper {
@@ -18,7 +19,7 @@ body {
   flex: 1;
   justify-content: right;
   align-items: center;
-  /* height: 100vh; */
+  height: 100vh;
   transform-style: preserve-3d;
 }
 .deep {
@@ -35,26 +36,16 @@ img {
   width: 60vw;
 }
 
-.space {
-  height: 25vh;
-}
 .countdown {
   font-family: staatliches;
   letter-spacing: -1.6pt;
   word-spacing: -0.5pt;
-  text-align: right;
   margin-bottom: -1vh;
-  font-size: 50pt;
-}
-
-.background,
-.foreground {
-  justify-content: center;
-  align-items: center;
+  font-size: 30pt;
 }
 
 .line {
-  background-color: black;
+  /* background-color: black; */
   height: 1.5vh;
   width: 60vw;
 }
@@ -62,81 +53,84 @@ img {
 .section1 {
   font-size: 2rem;
   padding: 2rem;
-  background-color: #852626;
-  color: white;
-  height: 100vh;
+  height: 300vh;
 }
 .section2 {
   font-size: 2rem;
   padding: 2rem;
-  background-color: #8a3636;
-  color: white;
-  height: 30vh;
+  height: 60vh;
 }
 
 .first1 {
   position: absolute;
-  top: -730px;
+  top: -700px;
+  background-color: black;
 }
 .series1 {
   position: absolute;
-  top: -315px;
+  top: -270px;
+  min-height: fit-content;
 }
 .paper1 {
   position: absolute;
-  top: 80px;
+  top: 135px;
 }
 .second1 {
   position: absolute;
-  top: -385px;
+  top: -135px;
+  background-color: black;
 }
 .title1 {
   position: absolute;
-  top: -100px;
+  top: 75px;
 }
 
 #stamp1 {
   position: absolute;
-  top: 245px;
+  top: 465px;
 }
 .third1 {
   position: absolute;
-  top: 370px;
+  top: 640px;
+  background-color: black;
 }
 .date1 {
   position: absolute;
-  top: 10px;
+  top: 910px;
 }
 
 .first2 {
   position: absolute;
-  top: ;
+  top: 2218px;
+  background-color: black;
 }
 .series2 {
   position: absolute;
-  top: ;
+  top: 1615px;
 }
 .paper2 {
   position: absolute;
-  top: ;
+  top: 2120px;
+}
+.second2 {
+  position: absolute;
+  top: 2408px;
+  background-color: black;
 }
 .title2 {
   position: absolute;
-  top: ;
-}
-.second1 {
-  position: absolute;
-  top: ;
+  top: 2105px;
 }
 #stamp2 {
   position: absolute;
-  top: ;
+  top: 2666px;
 }
 .third2 {
   position: absolute;
-  top: ;
+  top: 2950px;
+  background-color: black;
 }
 .date2 {
   position: absolute;
-  top: ;
+  top: 2720px;
 }
