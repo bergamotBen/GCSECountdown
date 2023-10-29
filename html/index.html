@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
       rel="stylesheet"
     />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="index.css" />
-    <title>Countdown to GCSEs</title>
+    <title>GCSE Countdown</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <article>
-      <hr />
-      <h1>GCSE Exams 2024</h1>
-      <h2>English</h2>
-      <h3>paper one</h3>
-      <br />
-      <hr />
-      <h4>20th century literature & creative prose writing</h4>
-      <p class="countdown"></p>
-      <hr class="hro" />
-      <h4 class="date"></h4>
-    </article>
+  <body class="bg" id="bg">
+    <div class="wrapper" id="wrapper">
+      <div class="paper">
+        <div class="line first1 deep"></div>
+        <img src="/GCSECountdown/assets/series.png" class="back series1" />
+        <img src="/GCSECountdown/assets/EPaperOne.png" class="fore paper1" />
+        <div class="line second1 deep"></div>
+        <img src="/GCSECountdown/assets/20thCent.png" class="back title1" />
+        <div class="countdown fore" id="stamp1"></div>
+        <div class="line third1 back"></div>
+        <img src="/GCSECountdown/assets/May23rd.png" class="deep date1" />
+      </div>
+      <div class="paper">
+        <div class="section1"></div>
+        <div class="line first2 fore"></div>
+        <img src="/GCSECountdown/assets/series.png" class="deep series2" />
+        <img src="/GCSECountdown/assets/EPaperTwo.png" class="back paper2" />
+        <div class="line second2 fore"></div>
+        <img src="/GCSECountdown/assets/21stCent.png" class="deep title2" />
+        <div class="countdown fore" id="stamp2"></div>
+        <div class="line third2 deep"></div>
+        <img src="/GCSECountdown/assets/June6th.png" class="fore date2" />
+        <div class="end fore"></div>
+        <div class="section2"></div>
+      </div>
+    </div>
   </body>
 </html>
-<script src="/GCSECountdown/js/index.js"></script>
+<script src="/GCSECountdown/js/script.js"></script>
