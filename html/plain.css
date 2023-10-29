@@ -6,11 +6,23 @@ body {
   background-color: #c77bdb;
   min-height: 100%;
 }
-.break {
-  height: 101vh;
+
+.parallax__element {
+  position: absolute;
+  height: 100%;
 }
 .paper1 {
+  height: 100%;
+  position: relative;
+  display: flex;
+  transform-style: preserve-3d;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+.wrapper {
   height: 100vh;
+  overflow-y: auto;
 }
 .paper2 {
   height: 99vh;
@@ -21,10 +33,9 @@ body {
 .line {
   background-color: black;
   height: 1.5vh;
-  margin: auto;
 }
 .first {
-  margin-top: 10px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 .second {
@@ -41,8 +52,16 @@ img {
 }
 .space {
   height: 25vh;
+  background-color: red;
 }
-
+.break {
+  height: 100vh;
+  background-color: red;
+}
+.end {
+  height: 46vh;
+  background-color: red;
+}
 .countdown {
   font-family: staatliches;
   letter-spacing: -1.6pt;
