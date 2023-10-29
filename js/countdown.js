@@ -33,3 +33,24 @@ countdownText2.innerText = countdown(1717660800000);
 setInterval(() => {
   countdownText.innerText = countdown(1717660800000);
 }, 60000);
+
+const purple = [199, 123, 219];
+const pink = [237, 82, 121];
+let currentColour = [199, 123, 219];
+
+const background = document.querySelector(".bg");
+background.style.backgroundColor = `rgb(${currentColour[0]}, ${currentColour[1]}, ${currentColour[2]})`;
+
+const scroll = document.getElementById("wrapper");
+scroll.addEventListener("scroll", () => {
+  const scrollHeight = 2973;
+  const percentage = scroll.scrollTop / scrollHeight;
+  const rRange = pink[0] - purple[0];
+  const gRange = purple[1] - pink[1];
+  const bRange = purple[2] - pink[2];
+
+  currentColour[0] = Math.round(percentage * rRange + purple[0]);
+  currentColour[1] = Math.round(1 - percentage * gRange + purple[1]);
+  currentColour[2] = Math.round(1 - percentage * bRange + purple[2]);
+  background.style.backgroundColor = `rgb(${currentColour[0]}, ${currentColour[1]}, ${currentColour[2]})`;
+});
