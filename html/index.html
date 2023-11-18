@@ -13,30 +13,72 @@
     <title>GCSE Countdown</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="bg" id="bg">
-    <div class="wrapper" id="wrapper">
-      <div class="paper">
-        <div class="line first1 deep"></div>
-        <img src="/GCSECountdown/assets/series.png" class="back series1" />
-        <img src="/GCSECountdown/assets/EPaperOne.png" class="fore paper1" />
-        <div class="line second1 deep"></div>
-        <img src="/GCSECountdown/assets/20thCent.png" class="back title1" />
-        <div class="countdown fore" id="stamp1"></div>
-        <div class="line third1 back"></div>
-        <img src="/GCSECountdown/assets/May23rd.png" class="deep date1" />
+  <body class="background">
+    <div class="parallax-wrapper" id="parallax-wrapper">
+      <div class="exam">
+        <div
+          class="black-line black-line--first_paper-one parallax-layer--deep"
+        ></div>
+        <img
+          src="/GCSECountdown/assets/series.png"
+          class="parallax-layer--back exam-series__paper-one"
+        />
+        <img
+          src="/GCSECountdown/assets/EPaperOne.png"
+          class="parallax-layer--fore exam-paper__paper-one"
+        />
+        <div
+          class="black-line black-line--second__paper-one parallax-layer--deep"
+        ></div>
+        <img
+          src="/GCSECountdown/assets/20thCent.png"
+          class="parallax-layer--back exam-title__paper-one"
+        />
+        <div
+          class="countdown parallax-layer--fore"
+          id="paperOneCountdown"
+        ></div>
+        <div
+          class="black-line black-line--third__paper-one parallax-layer--back"
+        ></div>
+        <img
+          src="/GCSECountdown/assets/May23rd.png"
+          class="parallax-layer--deep exam-date__paper-one"
+        />
       </div>
-      <div class="paper">
-        <div class="section1"></div>
-        <div class="line first2 fore"></div>
-        <img src="/GCSECountdown/assets/series.png" class="deep series2" />
-        <img src="/GCSECountdown/assets/EPaperTwo.png" class="back paper2" />
-        <div class="line second2 fore"></div>
-        <img src="/GCSECountdown/assets/21stCent.png" class="deep title2" />
-        <div class="countdown fore" id="stamp2"></div>
-        <div class="line third2 deep"></div>
-        <img src="/GCSECountdown/assets/June6th.png" class="fore date2" />
-        <div class="end fore"></div>
-        <div class="section2"></div>
+      <div class="exam">
+        <div class="spacer__middle"></div>
+        <div
+          class="black-line black-line--first__paper-two parallax-layer--fore"
+        ></div>
+        <img
+          src="/GCSECountdown/assets/series.png"
+          class="parallax-layer--deep exam-series__paper-two"
+        />
+        <img
+          src="/GCSECountdown/assets/EPaperTwo.png"
+          class="parallax-layer--back exam-paper__paper-two"
+        />
+        <div
+          class="black-line black-line--second__paper-two parallax-layer--fore"
+        ></div>
+        <img
+          src="/GCSECountdown/assets/21stCent.png"
+          class="parallax-layer--deep exam-title__paper-two"
+        />
+        <div
+          class="countdown parallax-layer--fore"
+          id="paperTwoCountdown"
+        ></div>
+        <div
+          class="black-line black-line--third__paper-two parallax-layer--deep"
+        ></div>
+        <img
+          src="/GCSECountdown/assets/June6th.png"
+          class="parallax-layer--fore exam-date__paper-two"
+        />
+        <div class="end parallax-layer--fore"></div>
+        <div class="spacer__end"></div>
       </div>
     </div>
   </body>

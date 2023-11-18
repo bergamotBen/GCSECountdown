@@ -3,7 +3,7 @@ body {
   overflow: hidden;
 }
 
-.wrapper {
+.parallax-wrapper {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
@@ -11,7 +11,7 @@ body {
   margin: auto;
 }
 
-.paper {
+.exam {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -21,28 +21,28 @@ body {
   height: 100vh;
   transform-style: preserve-3d;
 }
-.deep {
+.parallax-layer--deep {
   transform: translateZ(-32px) scale(3);
 }
-.back {
+.parallax-layer--back {
   transform: translateZ(-16px) scale(2);
 }
-.fore {
+.parallax-layer--fore {
   transform: translateZ(-8) scale(1.5);
 }
 
 .countdown {
   font-family: staatliches;
 }
-.line {
+.black-line {
   background-color: black;
 }
-.section1 {
+.spacer__middle {
   font-size: 2rem;
   padding: 2rem;
   height: 300vh;
 }
-.section2 {
+.spacer__end {
   font-size: 2rem;
   padding: 2rem;
   height: 60vh;
@@ -51,7 +51,7 @@ body {
   img {
     width: 60vw;
   }
-  .wrapper {
+  .parallax-wrapper {
     width: 60vw;
   }
   .countdown {
@@ -60,74 +60,74 @@ body {
     word-spacing: -0.5pt;
     margin-bottom: -1vh;
   }
-  .line {
+  .black-line {
     height: 1.5vh;
     width: 60vw;
   }
-  .first1 {
+  .black-line--first_paper-one {
     position: absolute;
     top: -700px;
   }
-  .series1 {
+  .exam-series__paper-one {
     position: absolute;
     top: -270px;
     min-height: fit-content;
   }
-  .paper1 {
+  .exam-paper__paper-one {
     position: absolute;
     top: 135px;
   }
-  .second1 {
+  .black-line--second__paper-one {
     position: absolute;
     top: -135px;
   }
-  .title1 {
+  .exam-title__paper-one {
     position: absolute;
     top: 75px;
   }
 
-  #stamp1 {
+  #paperOneCountdown {
     position: absolute;
     top: 465px;
   }
-  .third1 {
+  .black-line--third__paper-one {
     position: absolute;
     top: 640px;
   }
-  .date1 {
+  .exam-date__paper-one {
     position: absolute;
     top: 910px;
   }
 
-  .first2 {
+  .black-line--first__paper-two {
     position: absolute;
     top: 2218px;
   }
-  .series2 {
+  .exam-series__paper-two {
     position: absolute;
     top: 1615px;
   }
-  .paper2 {
+  .exam-paper__paper-two {
     position: absolute;
     top: 2120px;
   }
-  .second2 {
+  .black-line--second__paper-two {
     position: absolute;
     top: 2408px;
   }
-  .title2 {
+  .exam-title__paper-two {
     position: absolute;
     top: 2105px;
   }
-  #stamp2 {
+  #paperTwoCountdown {
     position: absolute;
     top: 2666px;
   }
-  .third2 {
+  .black-line--third__paper-two {
     position: absolute;
     top: 2950px;
   }
-  .date2 {
+  .exam-date__paper-two {
     position: absolute;
     top: 2720px;
   }
@@ -137,7 +137,7 @@ body {
   img {
     width: 80vw;
   }
-  .wrapper {
+  .parallax-wrapper {
     width: 80vw;
   }
   .countdown {
@@ -145,73 +145,73 @@ body {
     letter-spacing: -0.6pt;
     word-spacing: -0.5pt;
   }
-  .line {
+  .black-line {
     height: 1vh;
     width: 90vw;
   }
-  .first1 {
+  .black-line--first_paper-one {
     position: absolute;
     top: -500px;
   }
-  .series1 {
+  .exam-series__paper-one {
     position: absolute;
     top: -180px;
   }
-  .paper1 {
+  .exam-paper__paper-one {
     position: absolute;
     top: 125px;
   }
-  .second1 {
+  .black-line--second__paper-one {
     position: absolute;
     top: -280px;
   }
-  .title1 {
+  .exam-title__paper-one {
     position: absolute;
     top: -37px;
   }
 
-  #stamp1 {
+  #paperOneCountdown {
     position: absolute;
     top: 450px;
   }
-  .third1 {
+  .black-line--third__paper-one {
     position: absolute;
     top: 580px;
   }
-  .date1 {
+  .exam-date__paper-one {
     position: absolute;
     top: 740px;
   }
 
-  .first2 {
+  .black-line--first__paper-two {
     position: absolute;
     top: 2300px;
   }
-  .series2 {
+  .exam-series__paper-two {
     position: absolute;
     top: 1780px;
   }
-  .paper2 {
+  .exam-paper__paper-two {
     position: absolute;
     top: 2120px;
   }
-  .second2 {
+  .black-line--second__paper-two {
     position: absolute;
     top: 2378px;
   }
-  .title2 {
+  .exam-title__paper-two {
     position: absolute;
     top: 1990px;
   }
-  #stamp2 {
+  #paperTwoCountdown {
     position: absolute;
     top: 2686px;
   }
-  .third2 {
+  .black-line--third__paper-two {
     position: absolute;
     top: 2950px;
   }
-  .date2 {
+  .exam-date__paper-two {
     position: absolute;
     top: 2720px;
   }

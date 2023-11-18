@@ -22,13 +22,13 @@ const countdown = (stamp) => {
   return finalArr.join("").slice(0, -1);
 };
 
-const countdownText = document.querySelector("#stamp1");
+const countdownText = document.querySelector("#paperOneCountdown");
 countdownText.innerText = countdown(1716451200000);
 setInterval(() => {
   countdownText.innerText = countdown(1716451200000);
 }, 60000);
 
-const countdownText2 = document.querySelector("#stamp2");
+const countdownText2 = document.querySelector("#paperTwoCountdown");
 countdownText2.innerText = countdown(1717660800000);
 setInterval(() => {
   countdownText.innerText = countdown(1717660800000);
@@ -38,10 +38,10 @@ const purple = [199, 123, 219];
 const pink = [237, 82, 121];
 let currentColour = [199, 123, 219];
 
-const background = document.querySelector(".bg");
+const background = document.querySelector(".background");
 background.style.backgroundColor = `rgb(${currentColour[0]}, ${currentColour[1]}, ${currentColour[2]})`;
 
-const scroll = document.getElementById("wrapper");
+const scroll = document.getElementById("parallax-wrapper");
 scroll.addEventListener("scroll", () => {
   const scrollHeight = 2973;
   const percentage = scroll.scrollTop / scrollHeight;
